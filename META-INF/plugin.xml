@@ -2,7 +2,7 @@
     <id>com.villains.intelij.plugin.newoceantheme</id>
     <name>Deep Ocean Theme</name>
     <version>1.2.3</version>
-    <vendor email="kotofey.web@gmail.com" url="http://www.github.com/kotofeyweb/intellij-deepocean">Kostyantyn Safonov</vendor>
+    <vendor email="kotofey.web@gmail.com" url="https://github.com/KostyaSafonov/DeepOceanTheme">Kostyantyn Safonov</vendor>
 
     <description>
         <![CDATA[
@@ -25,9 +25,9 @@
 
     <change-notes>
         <![CDATA[
-          <h2>2023.12.02 (v1.2.3)</h2>
+          <h2>2023.12.03 (v1.2.3)</h2>
           <ul>
-            <li>Fixes compatibility issues</li>
+            <li>Fixes compatibility issues. Updates some JS, CSS and C# syntax colors</li>
           </ul>
           <h2>2023.01.08 (v1.2.2)</h2>
           <ul>
