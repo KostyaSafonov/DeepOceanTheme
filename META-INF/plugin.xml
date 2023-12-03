@@ -1,0 +1,110 @@
+<idea-plugin>
+    <id>com.villains.intelij.plugin.newoceantheme</id>
+    <name>Deep Ocean Theme</name>
+    <version>1.2.3</version>
+    <vendor email="kotofey.web@gmail.com" url="http://www.github.com/kotofeyweb/intellij-deepocean">Kostyantyn Safonov</vendor>
+
+    <description>
+        <![CDATA[
+          <html>
+            <head></head>
+            <body>
+              <p>Just a beautiful dark theme for JetBrains IDE's.</p>
+              <br>
+              <p>
+                <img
+                  src="https://raw.githubusercontent.com/kotofeyweb/NewOceanTheme-IntelliJ/main/NewOcean/screenshot_-_combined.png"
+                  alt="Code example"
+                  width="450"
+                >
+              </p>
+            </body>
+          </html>
+        ]]>
+    </description>
+
+    <change-notes>
+        <![CDATA[
+          <h2>2023.12.02 (v1.2.3)</h2>
+          <ul>
+            <li>Fixes compatibility issues</li>
+          </ul>
+          <h2>2023.01.08 (v1.2.2)</h2>
+          <ul>
+            <li>Makes VCS colors more prominent (since VCS indicators is too thin in the New UI)</li>
+          </ul>
+          <h2>2022.07.20 (v1.2.1)</h2>
+          <ul>
+            <li>Makes minor changes in languages color schemes</li>
+          </ul>
+          <h2>2022.07.17 (v1.2.0)</h2>
+          <ul>
+            <li>Makes overall color scheme more contrasting</li>
+          </ul>
+          <h2>2021.12.22 (v1.1.2)</h2>
+          <ul>
+            <li>Changes JS, CSS and C# color schemes</li>
+          </ul>
+          <h2>2021.08.16 (v1.1)</h2>
+          <ul>
+            <li>Changes hints dropdown bavkground color.</li>
+          </ul>
+          <h2>2021.05.18 (v1.09)</h2>
+          <ul>
+            <li>Changes drag & drop area color.</li>
+          </ul>
+          <h2>2021.05.18 (v1.08)</h2>
+          <ul>
+            <li>Fixes problem where IDE does not apply color scheme.</li>
+          </ul>
+          <h2>2021.05.18 (v1.07)</h2>
+          <ul>
+            <li>Changes the colors of the "ParameterInfo" window.</li>
+          </ul>
+          <h2>2021.05.17 (v1.06)</h2>
+          <ul>
+            <li>Changes the colors of the editor.</li>
+          </ul>
+          <h2>2021.05.11 (v1.05)</h2>
+          <ul>
+            <li>Changes the colors of the editor for Kotlin language.</li>
+          </ul>
+          <h2>2021.05.10 (v1.04)</h2>
+          <ul>
+            <li>Changes the colors of the editor for PHP language.</li>
+          </ul>
+          <h2>2021.05.07 (v1.03)</h2>
+          <ul>
+            <li>Changes the colors of the editor and the explorer.</li>
+          </ul>
+          <h2>2021.05.07 (v1.02)</h2>
+          <ul>
+            <li>Changes the colors of the filenames in the Explorer window and documentation dropdown window background color.</li>
+          </ul>
+          <h2>2021.05.05 (v1.01)</h2>
+          <ul>
+            <li>Updates the theme icon.</li>
+          </ul>
+        ]]>
+    </change-notes>
+
+    <idea-version since-build="191.0"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.lang</depends>
+    <depends optional="true">com.chrisrm.idea.MaterialThemeUI</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <themeProvider id="b6cb9e57-dd8a-4db8-bb1f-13a8023ecce8" path="/DeepOcean.theme.json"/>
+    </extensions>
+
+    <extensions defaultExtensionNs="com.chrisrm.idea.MaterialThemeUI">
+        <bundledTheme name="Deep Ocean" path="/themes/deepocean-mt"/>
+    </extensions>
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+</idea-plugin>
