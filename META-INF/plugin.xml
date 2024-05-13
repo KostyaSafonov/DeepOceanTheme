@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.villains.intelij.plugin.newoceantheme</id>
     <name>Deep Ocean Theme</name>
-    <version>1.2.3</version>
+    <version>1.2.6</version>
     <vendor email="kotofey.web@gmail.com" url="https://github.com/KostyaSafonov/DeepOceanTheme">Kostyantyn Safonov</vendor>
 
     <description>
@@ -25,6 +25,18 @@
 
     <change-notes>
         <![CDATA[
+          <h2>2024.05.13 (v1.2.6)</h2>
+          <ul>
+            <li>Changes matching braces bg color to a subtle outline. Changes the Completion Popup matching text color to the teal.</li>
+          </ul>
+          <h2>2024.01.24 (v1.2.5)</h2>
+          <ul>
+            <li>Fixes warning bg wrong color</li>
+          </ul>
+          <h2>2024.01.24 (v1.2.4)</h2>
+          <ul>
+            <li>Updates some JS, CSS and C# syntax colors</li>
+          </ul>
           <h2>2023.12.03 (v1.2.3)</h2>
           <ul>
             <li>Fixes compatibility issues. Updates some JS, CSS and C# syntax colors</li>
@@ -37,17 +49,17 @@
           <ul>
             <li>Makes minor changes in languages color schemes</li>
           </ul>
-          <h2>2022.07.17 (v1.2.0)</h2>
+          <h2>2022.07.17 (v1.2)</h2>
           <ul>
             <li>Makes overall color scheme more contrasting</li>
           </ul>
-          <h2>2021.12.22 (v1.1.2)</h2>
+          <h2>2021.12.22 (v1.11)</h2>
           <ul>
             <li>Changes JS, CSS and C# color schemes</li>
           </ul>
-          <h2>2021.08.16 (v1.1)</h2>
+          <h2>2021.08.16 (v1.10)</h2>
           <ul>
-            <li>Changes hints dropdown bavkground color.</li>
+            <li>Changes hints dropdown background color.</li>
           </ul>
           <h2>2021.05.18 (v1.09)</h2>
           <ul>

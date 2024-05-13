@@ -66,6 +66,7 @@
     },
 
     "CompletionPopup": {
+      "matchForeground": "#66C7C7",
       "background": "#101d24"
     },
 
@@ -454,7 +455,7 @@
     "ValidationTooltip": {
       "errorBackground": "#E68680",
       "errorBorderColor": "#E68680",
-      "warningBackground": "#E1AB89",
+      "warningBackground": "#684027",
       "warningBorderColor": "#E1AB89"
     },
 
