@@ -1,7 +1,7 @@
 {
   "name": "Deep Ocean",
   "dark": true,
-  "author": "Maciej Turlo",
+  "author": "Kostya Safonov",
   "editorScheme": "/themes/DeepOcean.xml",
   "ui": {
     "*": {
@@ -19,7 +19,6 @@
     },
 
     "Button": {
-      "arc": 0,
       "foreground": "#B1B7BE",
       "background": "#101d24",
       "shadowColor": "#00000000",
@@ -299,32 +298,38 @@
     },
 
     "ScrollBar": {
+      "trackColor": "#22343b00",
+      "hoverTrackColor": "#22343b00",
+      "thumbColor": "#2a3944e6",
+      "hoverThumbColor": "#31434fe6",
+      "thumbBorderColor": "#2a3944e6",
+      "hoverThumbBorderColor": "#31434fe6",
+      
       "Transparent": {
-        "thumbColor": "#253641",
-        "thumbBorderColor": "#253641",
-        "hoverThumbColor": "#253641",
-        "hoverThumbBorderColor": "#253641",
-        "hoverTrackColor": "#22343b"
+        "trackColor": "#22343b00",
+        "hoverTrackColor": "#22343b00",
+        "thumbColor": "#2a3944e6",
+        "hoverThumbColor": "#31434fe6",
+        "thumbBorderColor": "#2a3944e6",
+        "hoverThumbBorderColor": "#31434fe6"
       },
-      "thumbColor": "#253641",
-      "thumbBorderColor": "#253641",
-      "hoverThumbColor": "#253641",
-      "hoverThumbBorderColor": "#253641",
-      "hoverTrackColor": "#22343b",
 
       "Mac": {
+        "trackColor": "#22343b00",
+        "hoverTrackColor": "#22343b00",
+        "thumbColor": "#2a3944e6",
+        "hoverThumbColor": "#31434fe6",
+        "thumbBorderColor": "#2a3944e6",
+        "hoverThumbBorderColor": "#31434fe6",
+        
         "Transparent": {
-          "thumbColor": "#253641",
-          "thumbBorderColor": "#253641",
-          "hoverThumbColor": "#253641",
-          "hoverThumbBorderColor": "#253641",
-          "hoverTrackColor": "#22343b"
-        },
-        "thumbColor": "#253641",
-        "thumbBorderColor": "#253641",
-        "hoverThumbColor": "#253641",
-        "hoverThumbBorderColor": "#253641",
-        "hoverTrackColor": "#22343b"
+          "trackColor": "#22343b00",
+          "hoverTrackColor": "#22343b00",
+          "thumbColor": "#2a3944e6",
+          "hoverThumbColor": "#31434fe6",
+          "thumbBorderColor": "#2a3944e6",
+          "hoverThumbBorderColor": "#31434fe6"
+        }
       }
     },
 

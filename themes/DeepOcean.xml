@@ -64,30 +64,34 @@
     <option name="SELECTION_BACKGROUND" value="31424d" />
     <option name="SEPARATOR_BELOW_COLOR" value="3b4950" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="3b4a57" />
-    <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="9688c0" />
-    <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="9688c0" />
-    <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="1f2a30" />
-    <option name="ScrollBar.Mac.Transparent.thumbBorderColor" value="968880" />
-    <option name="ScrollBar.Mac.Transparent.thumbColor" value="968880" />
-    <option name="ScrollBar.Mac.Transparent.trackColor" value="1f2a30" />
-    <option name="ScrollBar.Mac.hoverThumbBorderColor" value="96880" />
-    <option name="ScrollBar.Mac.hoverThumbColor" value="96880" />
-    <option name="ScrollBar.Mac.hoverTrackColor" value="1f2a30" />
-    <option name="ScrollBar.Mac.thumbBorderColor" value="9688c0" />
-    <option name="ScrollBar.Mac.thumbColor" value="9688c0" />
-    <option name="ScrollBar.Mac.trackColor" value="1f2a30" />
-    <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="9688c0" />
-    <option name="ScrollBar.Transparent.hoverThumbColor" value="9688c0" />
-    <option name="ScrollBar.Transparent.hoverTrackColor" value="1f2a30" />
-    <option name="ScrollBar.Transparent.thumbBorderColor" value="968880" />
-    <option name="ScrollBar.Transparent.thumbColor" value="968880" />
-    <option name="ScrollBar.Transparent.trackColor" value="1f2a30" />
-    <option name="ScrollBar.hoverThumbBorderColor" value="96880" />
-    <option name="ScrollBar.hoverThumbColor" value="96880" />
-    <option name="ScrollBar.hoverTrackColor" value="1f2a30" />
-    <option name="ScrollBar.thumbBorderColor" value="9688c0" />
-    <option name="ScrollBar.thumbColor" value="264c6b" />
-    <option name="ScrollBar.trackColor" value="1f2a30" />
+
+    <option name="ScrollBar.trackColor" value="22343b00" />
+    <option name="ScrollBar.hoverTrackColor" value="22343b00" />
+    <option name="ScrollBar.Transparent.trackColor" value="22343b00" />
+    <option name="ScrollBar.Transparent.hoverTrackColor" value="22343b00" />
+    <option name="ScrollBar.Mac.trackColor" value="22343b00" />
+    <option name="ScrollBar.Mac.hoverTrackColor" value="22343b00" />
+    <option name="ScrollBar.Mac.Transparent.trackColor" value="22343b00" />
+    <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="22343b00" />
+    
+    <option name="ScrollBar.thumbColor" value="5a7380d4" />
+    <option name="ScrollBar.hoverThumbColor" value="6c8795d4" />
+    <option name="ScrollBar.Transparent.thumbColor" value="5a7380d4" />
+    <option name="ScrollBar.Transparent.hoverThumbColor" value="6c8795d4" />
+    <option name="ScrollBar.Mac.thumbColor" value="5a7380d4" />
+    <option name="ScrollBar.Mac.hoverThumbColor" value="6c8795d4" />
+    <option name="ScrollBar.Mac.Transparent.thumbColor" value="5a7380d4" />
+    <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="6c8795d4" />
+    
+    <option name="ScrollBar.thumbBorderColor" value="5a7380d4" />
+    <option name="ScrollBar.hoverThumbBorderColor" value="6c8795d4" />
+    <option name="ScrollBar.Transparent.thumbBorderColor" value="5a7380d4" />
+    <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="6c8795d4" />
+    <option name="ScrollBar.Mac.thumbBorderColor" value="5a7380d4" />
+    <option name="ScrollBar.Mac.hoverThumbBorderColor" value="6c8795d4" />
+    <option name="ScrollBar.Mac.Transparent.thumbBorderColor" value="5a7380d4" />
+    <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="6c8795d4" />
+    
     <option name="TEARLINE_COLOR" value="3b4950" />
     <option name="TOOLTIP" value="32424a" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="171c2a" />
@@ -397,6 +401,7 @@
     <option name="CTRL_CLICKABLE">
       <value>
         <option name="FOREGROUND" value="66c7c7" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES">
@@ -1051,8 +1056,8 @@
     </option>
     <option name="INLAY_DEFAULT">
       <value>
-        <option name="FOREGROUND" value="7e7e7e" />
-        <option name="BACKGROUND" value="2782b4" />
+        <option name="FOREGROUND" value="5b7386" />
+        <option name="BACKGROUND" value="e1c24" />
       </value>
     </option>
     <option name="INLAY_TEXT_WITHOUT_BACKGROUND">
@@ -3206,6 +3211,12 @@
       <value>
         <option name="FOREGROUND" value="97a0b4" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="TS.TYPE_GUARD">
+      <value>
+        <option name="EFFECT_COLOR" value="2e6958" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="TS.TYPE_PARAMETER">
