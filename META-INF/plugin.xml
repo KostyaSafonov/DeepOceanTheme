@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.villains.intelij.plugin.newoceantheme</id>
     <name>Deep Ocean Theme</name>
-    <version>1.3.0</version>
+    <version>1.4.0</version>
     <vendor email="kotofey.web@gmail.com" url="https://github.com/KostyaSafonov/DeepOceanTheme">Kostya Safonov</vendor>
 
     <description>
@@ -25,79 +25,102 @@
 
     <change-notes>
         <![CDATA[
+          <h2>2025.05.09 (v1.4.0)</h2>
+          <ul>
+            <li>Makes the background colors slightly darker.</li>
+          </ul>
+          
           <h2>2024.09.25 (v1.3.0)</h2>
           <ul>
             <li>- Fixes the scrollbar colors.</li>
             <li>- Adjusts the JS syntax highlighting colors.</li>
           </ul>
+          
           <h2>2024.05.13 (v1.2.6)</h2>
           <ul>
-            <li>Changes matching braces bg color to a subtle outline. Changes the Completion Popup matching text color to the teal.</li>
+            <li>Changes the matching braces' background color to a subtle outline. Changes the Completion Popup matching text color to teal.</li>
           </ul>
+          
           <h2>2024.01.24 (v1.2.5)</h2>
           <ul>
-            <li>Fixes warning bg wrong color</li>
+            <li>Fixes the incorrect warning background color.</li>
           </ul>
+          
           <h2>2024.01.24 (v1.2.4)</h2>
           <ul>
-            <li>Updates some JS, CSS and C# syntax colors</li>
+            <li>Updates some JS, CSS, and C# syntax colors.</li>
           </ul>
+          
           <h2>2023.12.03 (v1.2.3)</h2>
           <ul>
-            <li>Fixes compatibility issues. Updates some JS, CSS and C# syntax colors</li>
+            <li>Fixes compatibility issues. Updates some JS, CSS, and C# syntax colors.</li>
           </ul>
+          
           <h2>2023.01.08 (v1.2.2)</h2>
           <ul>
-            <li>Makes VCS colors more prominent (since VCS indicators is too thin in the New UI)</li>
+            <li>Makes VCS colors more prominent (since VCS indicators are too thin in the New UI).</li>
           </ul>
+          
           <h2>2022.07.20 (v1.2.1)</h2>
           <ul>
-            <li>Makes minor changes in languages color schemes</li>
+            <li>Makes minor changes to language color schemes.</li>
           </ul>
+          
           <h2>2022.07.17 (v1.2)</h2>
           <ul>
-            <li>Makes overall color scheme more contrasting</li>
+            <li>Makes the overall color scheme more contrasting.</li>
           </ul>
+          
           <h2>2021.12.22 (v1.11)</h2>
           <ul>
-            <li>Changes JS, CSS and C# color schemes</li>
+            <li>Changes JS, CSS, and C# color schemes.</li>
           </ul>
+          
           <h2>2021.08.16 (v1.10)</h2>
           <ul>
-            <li>Changes hints dropdown background color.</li>
+            <li>Changes the hints dropdown background color.</li>
           </ul>
+          
           <h2>2021.05.18 (v1.09)</h2>
           <ul>
-            <li>Changes drag & drop area color.</li>
+            <li>Changes the drag-and-drop area color.</li>
           </ul>
+          
           <h2>2021.05.18 (v1.08)</h2>
           <ul>
-            <li>Fixes problem where IDE does not apply color scheme.</li>
+            <li>Fixes the problem where the IDE does not apply the color scheme.</li>
           </ul>
+          
           <h2>2021.05.18 (v1.07)</h2>
           <ul>
             <li>Changes the colors of the "ParameterInfo" window.</li>
           </ul>
+          
           <h2>2021.05.17 (v1.06)</h2>
           <ul>
-            <li>Changes the colors of the editor.</li>
+            <li>Changes the editor’s colors.</li>
           </ul>
+          
           <h2>2021.05.11 (v1.05)</h2>
           <ul>
-            <li>Changes the colors of the editor for Kotlin language.</li>
+            <li>Changes the editor's colors for the Kotlin language.</li>
           </ul>
+          
           <h2>2021.05.10 (v1.04)</h2>
           <ul>
-            <li>Changes the colors of the editor for PHP language.</li>
+            <li>Changes the editor's colors for the PHP language.</li>
           </ul>
+          
           <h2>2021.05.07 (v1.03)</h2>
           <ul>
             <li>Changes the colors of the editor and the explorer.</li>
           </ul>
+          
           <h2>2021.05.07 (v1.02)</h2>
           <ul>
-            <li>Changes the colors of the filenames in the Explorer window and documentation dropdown window background color.</li>
+            <li>Changes the colors of the filenames in the Explorer window and the documentation dropdown window background color.</li>
           </ul>
+          
           <h2>2021.05.05 (v1.01)</h2>
           <ul>
             <li>Updates the theme icon.</li>
